@@ -42,4 +42,18 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, test by running the module.
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
-########################################################################
+#######################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+blue_turtle = rg.SimpleTurtle()
+blue_turtle.pen = rg.Pen('blue', 30)
+blue_turtle.speed = 10
+blue_turtle.forward(300)
+
+
+
+
+
+
