@@ -28,3 +28,12 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+frank = rg.SimpleTurtle()
+frank.draw_circle(100)
+frank.speed = 50
+shane = rg.SimpleTurtle('turtle')
+shane.pen = rg.Pen('green', 5)
+shane.left(75)
+shane.forward(200)

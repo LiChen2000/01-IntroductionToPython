@@ -2072,3 +2072,4 @@ def _serialize_shapes(self):
 #  -- Catch all Exceptions and react appropriately.
 #  -- Implement unimplemented classes.
 #  -- Add and allow FortuneTellers and other non-canvas classes.
+
